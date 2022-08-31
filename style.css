@@ -1,0 +1,79 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  color: white;
+  text-align:center
+}
+h2{ 
+  color: white;
+  text-align: center; 
+  margin-bottom: 30px
+}
+body{
+  background: black;
+}
+.equ{
+width: 200px;
+}
+.calc{
+  background: white;
+  text-align: center;
+  margin: 100px auto;
+  padding: 50px;
+}
+form{
+  padding: 0px 9px;
+  margin-bottom: 26px;
+}
+.textveiw{
+  width: 100%;
+  height: 40px;
+  pointer-events: none;
+  padding: 0px 12px;
+}
+.clearfix:after{
+  content: "";
+  width: 100%;
+  clear: both;
+  display: table;
+}
+.clearfix:before{
+  content: "";
+  width: 100%;
+  clear: both;
+  display: table;
+}
+.col-3{
+  width: 25%;
+  padding: 2px 7px;
+  float: left;
+}
+
+.col-6{
+  width: 50%;
+  padding: 0 10px;
+  float: left;
+  margin-top: 5px;
+}
+.button{
+  width: 100%;
+  height: 40px;
+}
+.button:hover{
+  background: black;
+   color :white;
+}
+.ch{
+  background: orange;
+}
+.cur{
+  background: purple;
+}
+.last{
+  background: orangered;
+}
+
